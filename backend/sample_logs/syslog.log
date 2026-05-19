@@ -1,0 +1,44 @@
+May 10 06:00:01 webserver kernel: [    0.000000] Linux version 5.15.0-91-generic (buildd@lcy02-amd64-032) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0)
+May 10 06:00:02 webserver kernel: [    0.543210] Memory: 8142232k/8388608k available
+May 10 06:00:03 webserver systemd[1]: Started System Logging Service.
+May 10 06:00:04 webserver systemd[1]: Started OpenBSD Secure Shell server.
+May 10 06:00:05 webserver systemd[1]: Started NGINX HTTP Server.
+May 10 06:05:00 webserver kernel: [  300.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54321 DPT=22
+May 10 06:05:02 webserver kernel: [  302.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54322 DPT=23
+May 10 06:05:04 webserver kernel: [  304.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54323 DPT=25
+May 10 06:05:06 webserver kernel: [  306.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54324 DPT=80
+May 10 06:05:08 webserver kernel: [  308.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54325 DPT=443
+May 10 06:05:10 webserver kernel: [  310.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54326 DPT=3306
+May 10 06:05:12 webserver kernel: [  312.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54327 DPT=5432
+May 10 06:05:14 webserver kernel: [  314.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54328 DPT=8080
+May 10 06:05:16 webserver kernel: [  316.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54329 DPT=8443
+May 10 06:05:18 webserver kernel: [  318.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54330 DPT=27017
+May 10 06:05:20 webserver kernel: [  320.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54331 DPT=6379
+May 10 06:05:22 webserver kernel: [  322.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=185.220.101.45 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=54332 DPT=9200
+May 10 06:10:00 webserver systemd[1]: nginx.service: Main process exited, code=exited, status=1/FAILURE
+May 10 06:10:01 webserver systemd[1]: nginx.service: Failed with result 'exit-code'.
+May 10 06:10:05 webserver systemd[1]: Started NGINX HTTP Server.
+May 10 06:30:00 webserver kernel: [  1800.000001] Out of memory: Killed process 3456 (java) total-vm:2048000kB
+May 10 06:30:01 webserver kernel: [  1800.100000] oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),task=java,pid=3456
+May 10 07:00:00 webserver systemd[1]: Starting Daily apt download activities...
+May 10 07:00:15 webserver systemd[1]: Finished Daily apt download activities.
+May 10 07:30:00 webserver kernel: [  5400.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=45.155.205.233 DST=10.0.0.100 LEN=40 TOS=0x00 PROTO=TCP SPT=12345 DPT=445
+May 10 07:30:02 webserver kernel: [  5402.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=45.155.205.233 DST=10.0.0.100 LEN=40 TOS=0x00 PROTO=TCP SPT=12346 DPT=139
+May 10 07:30:04 webserver kernel: [  5404.123456] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=45.155.205.233 DST=10.0.0.100 LEN=40 TOS=0x00 PROTO=TCP SPT=12347 DPT=135
+May 10 08:00:00 webserver systemd[1]: Started Certbot renewal timer.
+May 10 08:15:30 webserver kernel: [  8130.456789] warning: possible SYN flooding on port 80. Sending cookies.
+May 10 09:00:00 webserver cron[5000]: (root) CMD (/usr/local/bin/backup.sh)
+May 10 09:00:30 webserver kernel: [  10830.654321] EXT4-fs warning (device sda1): ext4_dx_add_entry:2073: Directory (ino: 524289) index full, reach max htree level :2
+May 10 10:00:00 webserver systemd[1]: Starting Cleanup of Temporary Directories...
+May 10 10:00:05 webserver systemd[1]: Finished Cleanup of Temporary Directories.
+May 10 10:30:00 webserver kernel: [  16200.789012] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=91.240.118.172 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=33333 DPT=22
+May 10 10:30:02 webserver kernel: [  16202.789012] UFW BLOCK IN=eth0 OUT= MAC=aa:bb:cc:dd:ee:ff SRC=91.240.118.172 DST=10.0.0.100 LEN=44 TOS=0x00 PROTO=TCP SPT=33334 DPT=3389
+May 10 11:00:00 webserver systemd[1]: session-15.scope: Succeeded.
+May 10 12:00:00 webserver systemd[1]: Starting Daily man-db regeneration...
+May 10 12:00:30 webserver systemd[1]: Finished Daily man-db regeneration.
+May 10 13:00:00 webserver kernel: [  25200.111111] nf_conntrack: table full, dropping packet
+May 10 13:00:01 webserver kernel: [  25201.111111] nf_conntrack: table full, dropping packet
+May 10 14:00:00 webserver systemd[1]: logrotate.service: Succeeded.
+May 10 15:00:00 webserver kernel: [  32400.222222] TCP: request_sock_TCP: Possible SYN flooding on port 443. Dropping request.
+May 10 16:00:00 webserver systemd[1]: Started Session 20 of user admin.
+May 10 17:00:00 webserver systemd[1]: session-20.scope: Succeeded.

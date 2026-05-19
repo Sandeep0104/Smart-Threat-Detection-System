@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Base Styles ──────────────────────────────────────── */
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    @apply bg-cyber-bg text-cyber-text font-sans antialiased;
+    overflow-x: hidden;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyber-border rounded-full;
+    transition: background 0.2s;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-cyber-cyan-dim;
+  }
+}
+
+/* ── Component Utilities ─────────────────────────────── */
+@layer components {
+  .glass-card {
+    @apply bg-cyber-card/80 backdrop-blur-md border border-cyber-border rounded-xl;
+    background: linear-gradient(135deg, rgba(17, 24, 39, 0.9), rgba(13, 19, 33, 0.95));
+  }
+
+  .glass-card-hover {
+    @apply glass-card transition-all duration-300;
+  }
+
+  .glass-card-hover:hover {
+    @apply border-cyber-cyan/30 shadow-cyber;
+    transform: translateY(-2px);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #00d4ff, #10b981);
+  }
+
+  .gradient-text-danger {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, #ef4444, #f59e0b);
+  }
+
+  .cyber-input {
+    @apply w-full bg-cyber-surface border border-cyber-border rounded-lg px-4 py-3
+           text-cyber-text placeholder-cyber-text-muted
+           focus:outline-none focus:border-cyber-cyan/50 focus:shadow-cyber
+           transition-all duration-300;
+  }
+
+  .cyber-button {
+    @apply px-6 py-3 rounded-lg font-semibold text-sm
+           transition-all duration-300 cursor-pointer
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .cyber-button-primary {
+    @apply cyber-button bg-gradient-to-r from-cyber-cyan to-cyan-600
+           text-cyber-bg hover:shadow-cyber-lg hover:scale-[1.02]
+           active:scale-[0.98];
+  }
+
+  .cyber-button-secondary {
+    @apply cyber-button bg-cyber-surface border border-cyber-border
+           text-cyber-text hover:border-cyber-cyan/50 hover:shadow-cyber;
+  }
+
+  .cyber-button-danger {
+    @apply cyber-button bg-gradient-to-r from-red-600 to-red-700
+           text-white hover:shadow-glow-red hover:scale-[1.02]
+           active:scale-[0.98];
+  }
+
+  .severity-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold uppercase tracking-wider;
+  }
+
+  .severity-critical {
+    @apply severity-badge bg-red-500/20 text-red-400 border border-red-500/30;
+  }
+
+  .severity-high {
+    @apply severity-badge bg-amber-500/20 text-amber-400 border border-amber-500/30;
+  }
+
+  .severity-medium {
+    @apply severity-badge bg-yellow-500/20 text-yellow-400 border border-yellow-500/30;
+  }
+
+  .severity-low {
+    @apply severity-badge bg-emerald-500/20 text-emerald-400 border border-emerald-500/30;
+  }
+
+  .severity-info {
+    @apply severity-badge bg-blue-500/20 text-blue-400 border border-blue-500/30;
+  }
+
+  .loading-skeleton {
+    @apply animate-pulse bg-cyber-border/50 rounded;
+  }
+
+  /* Scan line effect */
+  .scan-effect {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .scan-effect::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, rgba(0, 212, 255, 0.5), transparent);
+    animation: scanLine 3s linear infinite;
+  }
+}

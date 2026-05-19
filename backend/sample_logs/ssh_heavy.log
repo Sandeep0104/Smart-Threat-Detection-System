@@ -1,0 +1,71 @@
+May 13 01:00:01 prodserver sshd[20001]: Failed password for root from 185.220.101.10 port 41000 ssh2
+May 13 01:00:03 prodserver sshd[20001]: Failed password for root from 185.220.101.10 port 41001 ssh2
+May 13 01:00:05 prodserver sshd[20001]: Failed password for root from 185.220.101.10 port 41002 ssh2
+May 13 01:00:07 prodserver sshd[20001]: Failed password for root from 185.220.101.10 port 41003 ssh2
+May 13 01:00:09 prodserver sshd[20001]: Failed password for root from 185.220.101.10 port 41004 ssh2
+May 13 01:00:11 prodserver sshd[20001]: Failed password for root from 185.220.101.10 port 41005 ssh2
+May 13 01:00:13 prodserver sshd[20001]: Failed password for admin from 185.220.101.10 port 41006 ssh2
+May 13 01:00:15 prodserver sshd[20001]: Failed password for admin from 185.220.101.10 port 41007 ssh2
+May 13 01:00:17 prodserver sshd[20001]: Failed password for admin from 185.220.101.10 port 41008 ssh2
+May 13 01:00:19 prodserver sshd[20001]: Failed password for admin from 185.220.101.10 port 41009 ssh2
+May 13 01:00:21 prodserver sshd[20001]: Failed password for ubuntu from 185.220.101.10 port 41010 ssh2
+May 13 01:00:23 prodserver sshd[20001]: Failed password for ubuntu from 185.220.101.10 port 41011 ssh2
+May 13 01:00:25 prodserver sshd[20001]: Failed password for ubuntu from 185.220.101.10 port 41012 ssh2
+May 13 01:00:27 prodserver sshd[20001]: Failed password for ubuntu from 185.220.101.10 port 41013 ssh2
+May 13 01:00:29 prodserver sshd[20001]: Failed password for ubuntu from 185.220.101.10 port 41014 ssh2
+May 13 01:00:31 prodserver sshd[20001]: Failed password for pi from 185.220.101.10 port 41015 ssh2
+May 13 01:00:33 prodserver sshd[20001]: Failed password for pi from 185.220.101.10 port 41016 ssh2
+May 13 01:00:35 prodserver sshd[20001]: Failed password for pi from 185.220.101.10 port 41017 ssh2
+May 13 01:00:37 prodserver sshd[20001]: Maximum authentication attempts exceeded for root from 185.220.101.10 port 41017 ssh2
+May 13 01:05:00 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42000 ssh2
+May 13 01:05:02 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42001 ssh2
+May 13 01:05:04 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42002 ssh2
+May 13 01:05:06 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42003 ssh2
+May 13 01:05:08 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42004 ssh2
+May 13 01:05:10 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42005 ssh2
+May 13 01:05:12 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42006 ssh2
+May 13 01:05:14 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42007 ssh2
+May 13 01:05:16 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42008 ssh2
+May 13 01:05:18 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42009 ssh2
+May 13 01:05:20 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42010 ssh2
+May 13 01:05:22 prodserver sshd[20010]: Failed password for root from 91.108.4.50 port 42011 ssh2
+May 13 02:00:00 prodserver sshd[20020]: Invalid user ftpadmin from 171.25.193.20 port 43000 ssh2
+May 13 02:00:02 prodserver sshd[20020]: Failed password for invalid user ftpadmin from 171.25.193.20 port 43000 ssh2
+May 13 02:00:04 prodserver sshd[20021]: Invalid user webmaster from 171.25.193.20 port 43003 ssh2
+May 13 02:00:06 prodserver sshd[20021]: Failed password for invalid user webmaster from 171.25.193.20 port 43003 ssh2
+May 13 02:00:08 prodserver sshd[20022]: Invalid user db_user from 171.25.193.20 port 43006 ssh2
+May 13 02:00:10 prodserver sshd[20022]: Failed password for invalid user db_user from 171.25.193.20 port 43006 ssh2
+May 13 02:00:12 prodserver sshd[20023]: Invalid user nagios from 171.25.193.20 port 43009 ssh2
+May 13 02:00:14 prodserver sshd[20023]: Failed password for invalid user nagios from 171.25.193.20 port 43009 ssh2
+May 13 02:00:16 prodserver sshd[20024]: Invalid user oracle from 171.25.193.20 port 43012 ssh2
+May 13 02:00:18 prodserver sshd[20024]: Failed password for invalid user oracle from 171.25.193.20 port 43012 ssh2
+May 13 02:00:20 prodserver sshd[20025]: Invalid user jenkins from 171.25.193.20 port 43015 ssh2
+May 13 02:00:22 prodserver sshd[20025]: Failed password for invalid user jenkins from 171.25.193.20 port 43015 ssh2
+May 13 03:00:00 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44000 ssh2
+May 13 03:00:02 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44001 ssh2
+May 13 03:00:04 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44002 ssh2
+May 13 03:00:06 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44003 ssh2
+May 13 03:00:08 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44004 ssh2
+May 13 03:00:10 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44005 ssh2
+May 13 03:00:12 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44006 ssh2
+May 13 03:00:14 prodserver sshd[20030]: Failed password for root from 45.142.212.20 port 44007 ssh2
+May 13 04:00:00 prodserver sshd[20040]: Failed password for root from 103.15.28.100 port 45000 ssh2
+May 13 04:00:02 prodserver sshd[20040]: Failed password for root from 103.15.28.100 port 45001 ssh2
+May 13 04:00:04 prodserver sshd[20040]: Failed password for root from 103.15.28.100 port 45002 ssh2
+May 13 04:00:06 prodserver sshd[20040]: Failed password for root from 103.15.28.100 port 45003 ssh2
+May 13 04:00:08 prodserver sshd[20040]: Failed password for root from 103.15.28.100 port 45004 ssh2
+May 13 04:00:10 prodserver sshd[20040]: Failed password for root from 103.15.28.100 port 45005 ssh2
+May 13 06:00:00 prodserver sshd[20050]: Accepted publickey for sysadmin from 10.0.1.5 port 52000 ssh2
+May 13 06:10:00 prodserver sudo: sysadmin : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt upgrade
+May 13 06:15:00 prodserver sudo: sysadmin : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+May 13 06:20:00 prodserver sudo: sysadmin : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd root
+May 13 06:25:00 prodserver sudo: sysadmin : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd backdoor
+May 13 07:00:00 prodserver sshd[20060]: Accepted password for sysadmin from 10.0.1.5 port 52050 ssh2
+May 13 07:30:00 prodserver sshd[20070]: Failed password for root from 185.220.101.10 port 46000 ssh2
+May 13 07:30:02 prodserver sshd[20070]: Failed password for root from 185.220.101.10 port 46001 ssh2
+May 13 07:30:04 prodserver sshd[20070]: Failed password for root from 185.220.101.10 port 46002 ssh2
+May 13 07:30:06 prodserver sshd[20070]: Failed password for root from 185.220.101.10 port 46003 ssh2
+May 13 07:30:08 prodserver sshd[20070]: Failed password for root from 185.220.101.10 port 46004 ssh2
+May 13 07:30:10 prodserver sshd[20070]: Failed password for root from 185.220.101.10 port 46005 ssh2
+May 13 08:00:00 prodserver sshd[20080]: Accepted publickey for deploy from 10.0.1.10 port 52100 ssh2
+May 13 08:15:00 prodserver sudo: deploy : TTY=pts/1 ; PWD=/opt ; USER=root ; COMMAND=/usr/bin/docker-compose up -d
